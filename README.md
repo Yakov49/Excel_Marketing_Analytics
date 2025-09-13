@@ -1,27 +1,21 @@
 # Introduction
-This project analyses multi-channel marketing performance **entirely in Excel**. Using daily sessions/clicks/spend and order-level revenue, the workbook builds pivots and KPIs to answer:
-- Which channels drive the most orders and revenue?
-- How efficient are we (CTR, CPC, CR, CAC, ROAS, AOV)?
-- How do results trend by **week** and **month**?
+This project analyses multi-channel marketing performance by using Excel. Using daily sessions/clicks/spend and order-level revenue, the workbook builds pivots and KPIs to answer:
 
-The aim is a compact, reusable Excel file that a teammate can open, refresh, and instantly understand performance.
-
-
+Which channels drive the most orders and revenue?
+How efficient are we (CTR, CPC, CR, CAC, ROAS, AOV)?
+How do results trend by week and month?
 
 # File in this repo
-- `Excel.xlsx` – the complete workbook (pivots, formulas, and charts).
-
-> I keep only the workbook in the repo; charts for the README are pasted inline below.
-
-
+`Excel.xlsx` – the complete workbook (pivots, formulas, and charts).
+I keep only the workbook in the repo; charts for the README are pasted inline below.
 
 # What’s inside the workbook
 **Sheets (typical layout):**
-- `sessions` – daily traffic by Channel/Source/Medium (sessions, clicks, spend, CTR, date, week, month).
-- `orders` – order-level data (order date, items, revenue, channel attribution).
-- `weekly_summary` – weekly rollups (spend, orders, revenue).
-- `channel_summary` – pivoted channel KPIs (CR, AOV, CAC, ROAS, trend columns).
-- `report / kpi_pivot` – a tidy report view that references the pivots.
+ `sessions` – daily traffic by Channel/Source/Medium (sessions, clicks, spend, CTR, date, week, month).
+ `orders` – order-level data (order date, items, revenue, channel attribution).
+ `weekly_summary` – weekly rollups (spend, orders, revenue).
+ `channel_summary` – pivoted channel KPIs (CR, AOV, CAC, ROAS, trend columns).
+ `report / kpi_pivot` – a tidy report view that references the pivots.
 
 **KPIs & formulas**
 - **CTR** = `Clicks / Sessions`  
@@ -34,12 +28,14 @@ The aim is a compact, reusable Excel file that a teammate can open, refresh, and
 > Paid channels use Adjusted Spend (to allow a CPC multiplier for scenario testing). Organic/Email/Referral have £0 spend; CAC/ROAS are N/A for those.
 
 **Excel features used**
-- PivotTables & PivotCharts with slicers
-- Date functions (week number, month, EOMONTH)
-- Lookups/mappings for channel grouping
-- Conditional formatting for KPI thresholds
 
+PivotTables & PivotCharts with slicers
 
+Date functions (week number, month, EOMONTH)
+
+Lookups/mappings for channel grouping
+
+Conditional formatting for KPI thresholds
 
 # Visuals
 
