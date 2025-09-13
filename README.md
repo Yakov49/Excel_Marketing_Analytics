@@ -9,6 +9,7 @@ This project analyses multi-channel marketing performance in Excel. Using daily 
 ## File in this repo
 `excel_project.xlsx` — the complete workbook (pivots, formulas, and charts).  
 This repository contains only the workbook; charts for the README are pasted inline below.
+[Download the workbook](excel_project.xlsx)
 
 ## What’s inside the workbook
 **Sheets (typical layout):**
