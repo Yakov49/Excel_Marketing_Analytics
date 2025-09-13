@@ -6,14 +6,14 @@ This project analyses multi-channel marketing performance **entirely in Excel**.
 
 The aim is a compact, reusable Excel file that a teammate can open, refresh, and instantly understand performance.
 
----
+
 
 # File in this repo
 - `Excel.xlsx` – the complete workbook (pivots, formulas, and charts).
 
 > I keep only the workbook in the repo; charts for the README are pasted inline below.
 
----
+
 
 # What’s inside the workbook
 **Sheets (typical layout):**
@@ -39,7 +39,7 @@ The aim is a compact, reusable Excel file that a teammate can open, refresh, and
 - Lookups/mappings for channel grouping
 - Conditional formatting for KPI thresholds
 
----
+
 
 # Visuals
 
@@ -57,7 +57,7 @@ Overlay spend and orders to see how budget translates into conversions week-to-w
 
 _Possible read: “Spend is fairly steady across weeks; orders fluctuate—investigate creative/landing page changes around weeks with dips.”_
 
----
+
 
 # How to use the workbook
 1. Open `Excel.xlsx` (Excel 2019 / O365 recommended).  
@@ -65,7 +65,7 @@ _Possible read: “Spend is fairly steady across weeks; orders fluctuate—inves
 3. Use slicers (Channel/Month/Source) to explore segments.  
 4. Optional scenario: adjust the **CPC multiplier** on the report sheet to see CPC/CAC/ROAS sensitivity.
 
----
+
 
 # Results & quick insights (template)
 - **Best converting channel**: Email typically leads CR in most ecommerce datasets.  
@@ -75,7 +75,7 @@ _Possible read: “Spend is fairly steady across weeks; orders fluctuate—inves
 
 > Replace these bullets with your actual takeaways after you review the pivots.
 
----
+
 
 # Next steps
 - Power Query to auto-load new CSVs each month.
@@ -83,8 +83,5 @@ _Possible read: “Spend is fairly steady across weeks; orders fluctuate—inves
 - Cohort analysis for **repeat rate** and **LTV : CAC** by channel.
 - Export key charts as PNGs for monthly reporting.
 
----
 
-# License
-MIT (or choose your preferred license)
 
